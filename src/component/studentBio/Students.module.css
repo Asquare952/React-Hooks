@@ -1,0 +1,51 @@
+.Container{
+  display: flex;
+  width: 50%;
+  flex-wrap: wrap;
+  gap: 5.5rem;
+  margin-top: 2rem;
+}
+.content{
+
+  padding: 20px;
+}
+.btn{
+  display: flex;
+  gap: 1.5rem;
+  margin-top: 1rem;
+}
+.btn button{
+  display: block;
+  padding: 5px 20px;
+  cursor: pointer;
+}
+.btnSubmit{
+  border: none;
+  background-color: rgb(7, 230, 7);
+  color: #ffff;
+  border-radius: .5rem;
+}
+.btnSubmit:hover{
+  background-color: green;
+}
+.btnDelete{
+  border: none;
+  background-color: rgb(244, 30, 30);
+  color: #ffff;
+  border-radius: .5rem;
+}
+.btnDelete:hover{
+  background-color: rgb(146, 3, 3);
+}
+.btnDeleteAll{
+  margin-bottom: 1rem;
+  padding: 5px 20px;
+  cursor: pointer;
+  border: none;
+  background-color: rgb(244, 30, 30);
+  color: #ffff;
+  border-radius: .5rem;
+}
+.btnDeleteAll:hover{
+  background-color: rgb(146, 3, 3);
+}
